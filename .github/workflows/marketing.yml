@@ -6,8 +6,8 @@ on:
       - main
     paths:
       - 'packages/marketing/**'
-
-  workflow-dispatch:
+  pull_request:
+    branches: [ main ]
 
 defaults:
   run:
