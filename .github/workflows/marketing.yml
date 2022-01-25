@@ -16,10 +16,10 @@ on:
   jobs:
     build:
       runs-on: ubuntu-18.04
-
+      
       steps:
         - uses: actions/checkout@v2
-
+        
         - name: Install pacakges in marketing
           run: npm install
         - name: Run prod build
