@@ -1,3 +1,4 @@
+
 name: deploy-marketing
 
 on:
@@ -11,7 +12,7 @@ on:
 
 defaults:
   run:
-    working-directory: packages-marketing
+    working-directory: packages/marketing
 
 jobs:
   build:
