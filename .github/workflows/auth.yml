@@ -11,7 +11,7 @@ on:
     
 defaults:
   run:
-    working-directory: pacakges/auth
+    working-directory: packages/auth
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Install pacakges
+      - name: Install packages
         run: npm install
       - name: Create prod build
         run: npm run build
